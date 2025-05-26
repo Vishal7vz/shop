@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vishal's Cat Paradise</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fefefe;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(to right, #9b59b6, #8e44ad);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    nav {
+      background: #f3e5f5;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #4a148c;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+      animation: fadeIn 1s ease-in;
+    }
+    h2 {
+      font-size: 2rem;
+      color: #6a1b9a;
+      margin-bottom: 1rem;
+    }
+    .cat-card {
+      display: flex;
+      align-items: center;
+      background: #f9f0ff;
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.04);
+    }
+    .cat-card img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-right: 1.5rem;
+      border: 2px solid #ce93d8;
+    }
+    .cat-details {
+      flex: 1;
+    }
+    .cat-details h3 {
+      margin: 0 0 0.5rem 0;
+      color: #4a148c;
+    }
+    .cat-details p {
+      margin: 0.3rem 0;
+    }
+    footer {
+      background: #8e44ad;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 3rem;
+    }
+    a {
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Vishal's Cat Paradise</h1>
+  <p>Premium Cat Breeds Available in India</p>
+</header>
+
+<nav>
+  <a href="#cats">Cats</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="cats">
+  <h2>Available Cat Breeds</h2>
+  <div class="cat-card">
+    <img src="IMG-4140.jpg" alt="Sad Cat">
+    <div class="cat-details">
+      <h3>Persian Cat</h3>
+      <p><strong>Price:</strong> ₹15,000</p>
+      <p>Soft and fluffy with a sad face, ideal for dramatic cuddles.</p>
+    </div>
+  </div>
+  <div class="cat-card">
+    <img src="IMG-4141.jpg" alt="Cute White Cat">
+    <div class="cat-details">
+      <h3>Scottish Fold</h3>
+      <p><strong>Price:</strong> ₹14,000</p>
+      <p>Big eyes and adorable expressions. The ultimate meme-worthy pet.</p>
+    </div>
+  </div>
+  <div class="cat-card">
+    <img src="IMG-4142.jpg" alt="Licking Cat">
+    <div class="cat-details">
+      <h3>British Shorthair</h3>
+      <p><strong>Price:</strong> ₹13,000</p>
+      <p>Curious and always ready for a selfie. Also loves phones apparently.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact & Location</h2>
+  <p>Email: <a href="mailto:vishalsingh7vz@gmail.com">vishalsingh7vz@gmail.com</a></p>
+  <p>Phone: <a href="tel:+917355091752">+91 7355091752</a></p>
+  <p>Location: Shantipuram, India</p>
+  <p>Instagram: <a href="https://www.instagram.com/vishal7.z/?utm_source=ig_web_button_share_sheet" target="_blank">@vishal7.z</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Vishal Singh. Created by Vishal Singh</p>
+</footer>
+
+</body>
+</html>
